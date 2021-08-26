@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "RKCovid19ADF"
+		},
+		"ls_ablob_rkcovid19reportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_ablob_rkcovid19reportingsadl_accountKey": {
+			"value": ""
+		},
+		"ls_ablob_rkcovid19reportingsadl_properties_typeProperties_url": {
+			"value": "https://rkcovid19sadl.dfs.core.windows.net"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/6934d6bf-9675-4af1-b04f-94837e48b78d/resourceGroups/covid19RG/providers/Microsoft.Storage/storageAccounts/rkcovid19sa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
