@@ -49,18 +49,40 @@
 				"inputs": [
 					{
 						"referenceName": "ds_cases_death_csv_http",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"relativeURL": {
+								"value": "@variables('source_relativeURL')",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "ds_cases_death_csv_dl",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": {
+								"value": "@variables('sink_fileName')",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
 		],
 		"concurrency": 1,
+		"variables": {
+			"source_relativeURL": {
+				"type": "String",
+				"defaultValue": "cloudboxacademy/covid19/blob/main/ecdc_data/hospital_admissions.csv"
+			},
+			"sink_fileName": {
+				"type": "String",
+				"defaultValue": "hospital_admissions.csv"
+			}
+		},
 		"annotations": []
 	}
 }
