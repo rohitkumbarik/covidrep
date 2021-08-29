@@ -15,7 +15,7 @@
 			"value": "https://rkcovid19sadl.dfs.core.windows.net"
 		},
 		"ls_http_opendata_ecdc_europa_cases_death_properties_typeProperties_url": {
-			"value": "https://github.com"
+			"value": "@{linkedService().baseURL}"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/6934d6bf-9675-4af1-b04f-94837e48b78d/resourceGroups/covid19RG/providers/Microsoft.Storage/storageAccounts/rkcovid19sa"

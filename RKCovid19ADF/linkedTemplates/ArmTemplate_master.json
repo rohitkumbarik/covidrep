@@ -21,7 +21,7 @@
 		},
 		"ls_http_opendata_ecdc_europa_cases_death_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://github.com"
+			"defaultValue": "@{linkedService().baseURL}"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
