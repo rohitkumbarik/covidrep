@@ -1,6 +1,11 @@
 {
 	"name": "ls_http_opendata_ecdc_europa_cases_death",
 	"properties": {
+		"parameters": {
+			"baseURL": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
