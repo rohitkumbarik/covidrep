@@ -1,5 +1,5 @@
 {
-	"name": "ds_cases_death_csv_dl",
+	"name": "ds_ecdc_csv_dl",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_ablob_rkcovid19reportingsadl",
