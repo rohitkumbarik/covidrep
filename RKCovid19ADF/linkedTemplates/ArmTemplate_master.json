@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://rkcovid19sadl.dfs.core.windows.net"
 		},
+		"ls_http_opendata_ecdc_europa_cases_death_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://github.com"
+		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/6934d6bf-9675-4af1-b04f-94837e48b78d/resourceGroups/covid19RG/providers/Microsoft.Storage/storageAccounts/rkcovid19sa"
@@ -58,6 +62,9 @@
 					},
 					"ls_ablob_rkcovid19reportingsadl_properties_typeProperties_url": {
 						"value": "[parameters('ls_ablob_rkcovid19reportingsadl_properties_typeProperties_url')]"
+					},
+					"ls_http_opendata_ecdc_europa_cases_death_properties_typeProperties_url": {
+						"value": "[parameters('ls_http_opendata_ecdc_europa_cases_death_properties_typeProperties_url')]"
 					},
 					"tr_ingest_population_data_properties_typeProperties_scope": {
 						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
