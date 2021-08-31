@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Data flow cases",
+				"name": "Data flow hospital admission",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
